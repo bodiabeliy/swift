@@ -1,0 +1,75 @@
+* {
+ margin: 0;
+ padding: 0;
+}
+p {
+ margin: 0 0 18px;
+}
+
+body {
+ background: #e3e3e3;
+ font-family: 'Inter', sans-serif;
+}
+
+a {
+ text-decoration: none;
+}
+
+.swift__header-title h1{
+ text-align: center;
+ font-size: 36px !important;
+line-height: 48px !important;
+ margin-bottom: 65px;
+}
+.legal-nodes__cards {
+ max-width: 940px;
+ display: flex;
+ 
+ margin: 0 auto;
+}
+.legal-nodes__card {
+ background: #FFFFFF;
+ border: 1px solid #EAE9F2;
+ border-radius: 10px;
+ display: flex;
+ justify-content: center;
+ width: 100%;
+ height: 473px;
+ margin-left: 10.5px;
+ text-align: center;
+}
+.legal-nodes__images {
+ margin-top: 54.5px;
+ margin-bottom: 9px;
+}
+.legal-nodes__subtitle {
+ font-size: 21px;
+ text-transform: uppercase;
+
+}
+.legal-nodes__text-decription {
+ max-width: 293px;
+ font-size: 15px;
+ line-height: 26px;
+}
+
+.legal-nodes__btn {
+ margin-top: 81px;
+ margin-right: 20px;
+ width: 220px;
+ height: 55px;
+ border-radius: 27.5px;
+background: #2361FF;
+}
+
+.legal-nodes__btn a{
+ color: white;
+ text-transform: uppercase;
+}
+
+.how-it-work__slides {
+ position: relative;
+ width: 100%;
+ height: 637px;
+ background: #000;
+}
