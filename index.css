@@ -68,9 +68,13 @@ background: #2361FF;
  text-transform: uppercase;
 }
 
-.how-it-work__slides {
- position: relative;
+.work-principle__slides {
+ margin-top: 225px;
  width: 100%;
  height: 637px;
- background: #000;
+}
+
+.work-principle__container-slide {
+ margin-left: 16px;
+ margin-right: 16px;
 }
