@@ -62,6 +62,7 @@ a {
  width: 220px;
  height: 55px;
  border-radius: 27.5px;
+ border: none;
 background: #2361FF;
 }
 
@@ -111,6 +112,7 @@ background: #2361FF;
  width: 220px;
  height: 55px;
  border-radius: 27.5px;
+ border: none;
  background: #000;
 }
 .trust__container h2{
@@ -199,6 +201,7 @@ line-height: 26px;
 
 .contact-form__concultation-btn {
  margin-top: 20px;
+ margin-bottom: 210px;
  width: 200px;
  height: 61px;
  background: transparent;
@@ -223,4 +226,53 @@ line-height: 36px;
 border-radius: 30px;
 font-size: 15px;
 line-height: 36px;
+}
+
+.contact-form__email-span {
+ font-size: 16px;
+ line-height: 28px;
+}
+.contact-form__icons {
+ margin-top: 10px;
+ display: flex;
+ width: 139px;
+ justify-content: space-around;
+}
+
+.footer__link-container {
+ max-width: 1310px;
+ margin: 0 auto;
+}
+.footer__main-links {
+ font-size: 16px;
+ line-height: 19px;
+}
+
+.footer__input-field {
+ width: 361px;
+}
+.footer__input {
+ width: 283px;
+ height: 46px;
+ background: #FFFFFF;
+ border: none;
+ border-radius: 5px;
+}
+.footer__input-btn {
+ width: 71px;
+ height: 46px;
+ text-transform: uppercase;
+ background: #3760F0;
+ border: none;
+ color: white;
+ border-radius: 5px;
+}
+.footer {
+ display: flex;
+ width: 715px;
+ margin-left: 160px;
+}
+.footer__authour {
+ display: flex;
+ justify-content: space-between;
 }
