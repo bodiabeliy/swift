@@ -13,12 +13,14 @@ body {
 
 a {
  text-decoration: none;
+ color: white;
+
 }
 
 .swift__header-title h1{
  text-align: center;
  font-size: 36px !important;
-line-height: 48px !important;
+ line-height: 48px !important;
  margin-bottom: 65px;
 }
 .legal-nodes__cards {
@@ -69,12 +71,56 @@ background: #2361FF;
 }
 
 .work-principle__slides {
+ 
  margin-top: 225px;
  width: 100%;
  height: 637px;
 }
-
-.work-principle__container-slide {
+.work-principle__text {
+ max-width: 420px;
+}
+.work-principle__container-slide-one,
+.work-principle__container-slide-two {
+ display: flex;
  margin-left: 16px;
- margin-right: 16px;
+}
+.work-principle__container-slide-two {
+ flex-direction: row-reverse;
+}
+.work-principle__exapmle-image {
+ margin-right: 104px;
+}
+.work-principle__text h2 {
+ font-size: 36px;
+ line-height: 48px;
+}
+.work-principle__text h3 {
+ font-size: 21px;
+ line-height: 24px;
+}
+.work-principle__text p {
+ font-size: 15px;
+ line-height: 26px;
+}
+.work-principle__container-slide-two .work-principle__text {
+ margin-top: 130px;
+}
+.work-principle__btn {
+ color: white;
+ text-transform: uppercase;
+ width: 220px;
+ height: 55px;
+ border-radius: 27.5px;
+ background: #000;
+}
+.trust__container h2{
+ font-size: 36px;
+ line-height: 48px;
+ margin-top: 100px;
+ margin-bottom: 76px;
+ text-align: center;
+}
+.trust__icons-container {
+ display: flex;
+ justify-content: space-around;
 }
